@@ -1,0 +1,359 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/awaymission/centcom_away/general)
+"b" = (
+/obj/structure/reflector/box/anchored,
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"f" = (
+/obj/machinery/power/emitter/welded{
+	dir = 8;
+	active = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"i" = (
+/obj/structure/reflector/box/anchored{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"k" = (
+/obj/structure/reflector/box/anchored{
+	dir = 8
+	},
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"m" = (
+/turf/open/floor/circuit/green/anim,
+/area/awaymission/centcom_away/general)
+"n" = (
+/obj/machinery/power/emitter/welded{
+	dir = 8;
+	active = 1
+	},
+/obj/structure/cable,
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"o" = (
+/obj/machinery/button/door{
+	id = "rdoffice";
+	name = "Privacy Shutter Control";
+	pixel_y = -2;
+	req_access = list("research")
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/awaymission/centcom_away/general)
+"p" = (
+/obj/structure/reflector/box/anchored{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"s" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"t" = (
+/obj/machinery/power/emitter/welded{
+	active = 1
+	},
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"v" = (
+/obj/structure/reflector/box/anchored{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"w" = (
+/obj/structure/reflector/box/anchored{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/structure/cable,
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"y" = (
+/obj/structure/reflector/box/anchored,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"A" = (
+/obj/structure/reflector/box/anchored{
+	dir = 1
+	},
+/obj/structure/reflector/box/anchored{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"B" = (
+/obj/structure/cable,
+/turf/closed/wall/mineral/plastitanium,
+/area/awaymission/centcom_away/general)
+"D" = (
+/obj/structure/reflector/box/anchored,
+/obj/structure/cable,
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"G" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kanyewest";
+	name = "Privacy Shutters"
+	},
+/turf/open/floor/circuit/red/anim,
+/area/awaymission/centcom_away/general)
+"H" = (
+/obj/machinery/power/emitter/welded{
+	active = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"J" = (
+/obj/structure/cable,
+/obj/machinery/power/smes/magical,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"K" = (
+/obj/machinery/power/emitter/welded{
+	dir = 4;
+	active = 1
+	},
+/obj/structure/cable,
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"M" = (
+/obj/machinery/door/airlock/survival_pod,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"N" = (
+/obj/machinery/power/emitter/welded{
+	dir = 8;
+	active = 1
+	},
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"O" = (
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"Q" = (
+/obj/structure/reflector/box/anchored{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"S" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"T" = (
+/obj/structure/reflector/box/anchored{
+	dir = 4
+	},
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"U" = (
+/obj/machinery/power/emitter/welded{
+	dir = 4;
+	active = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"V" = (
+/obj/structure/reflector/box/anchored{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"W" = (
+/obj/machinery/power/emitter/welded{
+	dir = 4;
+	active = 1
+	},
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+"Z" = (
+/obj/structure/reflector/box/anchored{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/circuit,
+/area/awaymission/centcom_away/general)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+U
+U
+U
+U
+B
+K
+W
+U
+U
+a
+"}
+(3,1,1) = {"
+a
+b
+b
+D
+D
+p
+Q
+w
+w
+v
+a
+"}
+(4,1,1) = {"
+a
+t
+i
+n
+t
+V
+N
+f
+N
+N
+a
+"}
+(5,1,1) = {"
+a
+H
+k
+O
+a
+S
+a
+a
+a
+a
+a
+"}
+(6,1,1) = {"
+a
+J
+s
+O
+o
+m
+G
+O
+O
+O
+M
+"}
+(7,1,1) = {"
+a
+H
+T
+O
+a
+S
+a
+a
+a
+a
+a
+"}
+(8,1,1) = {"
+a
+H
+V
+K
+t
+k
+U
+U
+U
+U
+a
+"}
+(9,1,1) = {"
+a
+y
+y
+b
+b
+i
+Z
+Z
+A
+Z
+a
+"}
+(10,1,1) = {"
+a
+N
+N
+N
+N
+f
+f
+N
+N
+N
+a
+"}
+(11,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}

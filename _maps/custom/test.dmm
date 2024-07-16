@@ -1,0 +1,210 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/chair/sofa/bench/tram/left{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"h" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/effect/landmark/transport/nav_beacon/tram/nav/hilbert,
+/obj/effect/landmark/transport/nav_beacon/tram/platform/hilbert/middle,
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"j" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/chair/sofa/bench/tram/right,
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"n" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/chair/sofa/bench/tram/right,
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"p" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/effect/landmark/transport/transport_id/hilbert,
+/obj/structure/chair/sofa/bench/tram/left,
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"r" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/chair/sofa/bench/tram/right{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"s" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/chair/sofa/bench/tram/left{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"u" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/structure/chair/sofa/bench/tram/left,
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"v" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/machinery/computer/tram_controls{
+	dir = 8;
+	icon_state = "tram_alt_controls";
+	density = 0;
+	specific_transport_id = "hilb_1"
+	},
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"x" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/machinery/transport/tram_controller/hilbert,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"B" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/machinery/button/transport/tram{
+	specific_transport_id = "hilb_1";
+	id = 2;
+	pixel_y = 9
+	},
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"D" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/chair/sofa/bench/tram/left,
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"F" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/chair/sofa/bench/tram/right,
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"I" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/chair/sofa/bench/tram/left{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"N" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/chair/sofa/bench/tram/left,
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"P" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"R" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/structure/chair/sofa/bench/tram/right,
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"U" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/obj/structure/chair/sofa/bench/tram/right{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"W" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/structure/chair/sofa/bench/tram/left{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"X" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/chair/sofa/bench/tram/right{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+"Z" = (
+/obj/structure/thermoplastic/light,
+/obj/structure/transport/linear/tram,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/structure/chair/sofa/bench/tram/right{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/station/maintenance/tram/mid)
+
+(1,1,1) = {"
+n
+F
+v
+a
+I
+"}
+(2,1,1) = {"
+u
+p
+P
+X
+Z
+"}
+(3,1,1) = {"
+B
+P
+h
+P
+P
+"}
+(4,1,1) = {"
+R
+j
+P
+s
+W
+"}
+(5,1,1) = {"
+D
+N
+x
+r
+U
+"}

@@ -1,0 +1,179 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/admin)
+"n" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/admin)
+"s" = (
+/turf/open/floor/iron/vaporwave,
+/area/centcom/central_command_areas/admin)
+"I" = (
+/turf/open/space/basic,
+/area/space)
+"J" = (
+/obj/structure/holosign/barrier/atmos/tram,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/admin)
+"R" = (
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/admin)
+"V" = (
+/obj/machinery/button/transport/tram,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/admin)
+"W" = (
+/obj/effect/landmark/transport/nav_beacon/tram/platform/tramstation/west,
+/turf/open/floor/iron/vaporwave,
+/area/centcom/central_command_areas/admin)
+"X" = (
+/obj/machinery/transport/crossing_signal,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/admin)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+n
+"}
+(2,1,1) = {"
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+a
+"}
+(3,1,1) = {"
+R
+R
+R
+R
+R
+s
+s
+s
+s
+s
+a
+"}
+(4,1,1) = {"
+R
+R
+R
+R
+R
+s
+s
+s
+s
+s
+a
+"}
+(5,1,1) = {"
+a
+a
+a
+R
+R
+s
+s
+s
+s
+s
+a
+"}
+(6,1,1) = {"
+I
+I
+a
+R
+R
+s
+s
+W
+s
+s
+a
+"}
+(7,1,1) = {"
+I
+I
+a
+R
+V
+s
+s
+s
+s
+s
+a
+"}
+(8,1,1) = {"
+I
+I
+a
+R
+R
+s
+s
+s
+s
+s
+a
+"}
+(9,1,1) = {"
+I
+I
+a
+R
+R
+s
+s
+s
+s
+s
+a
+"}
+(10,1,1) = {"
+I
+I
+a
+R
+X
+R
+R
+R
+R
+R
+a
+"}
+(11,1,1) = {"
+I
+I
+a
+a
+a
+J
+J
+J
+J
+J
+a
+"}

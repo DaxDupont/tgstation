@@ -1,0 +1,55 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/transport/linear/tram,
+/obj/effect/landmark/transport/transport_id/tramstation/line_1,
+/obj/structure/thermoplastic/light,
+/turf/open/floor/iron,
+/area/awaymission/centcom_away)
+"j" = (
+/obj/effect/turf_decal/tile/neutral/tram,
+/obj/structure/transport/linear/tram,
+/obj/effect/landmark/transport/nav_beacon/tram/nav/tramstation/main,
+/obj/structure/transport/linear/tram,
+/obj/structure/thermoplastic/light,
+/turf/open/floor/iron,
+/area/awaymission/centcom_away)
+"x" = (
+/obj/structure/transport/linear/tram,
+/obj/structure/tram/split,
+/obj/structure/thermoplastic/light,
+/turf/open/floor/iron,
+/area/awaymission/centcom_away)
+"L" = (
+/obj/structure/transport/linear/tram,
+/obj/structure/tram/split,
+/obj/structure/thermoplastic/light,
+/obj/machinery/transport/tram_controller,
+/turf/open/floor/iron,
+/area/awaymission/centcom_away)
+"M" = (
+/obj/structure/tram/split,
+/obj/machinery/transport/destination_sign/split/south,
+/obj/structure/transport/linear/tram,
+/obj/structure/thermoplastic/light,
+/turf/open/floor/iron,
+/area/awaymission/centcom_away)
+"O" = (
+/obj/structure/transport/linear/tram/corner/southwest,
+/obj/structure/tram/spoiler,
+/obj/structure/transport/linear/tram,
+/obj/structure/thermoplastic/light,
+/turf/open/floor/iron,
+/area/awaymission/centcom_away)
+
+(1,1,1) = {"
+L
+O
+"}
+(2,1,1) = {"
+a
+M
+"}
+(3,1,1) = {"
+j
+x
+"}
