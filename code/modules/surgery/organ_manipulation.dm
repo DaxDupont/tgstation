@@ -17,6 +17,11 @@
 	. = ..()
 	if(!.)
 		return
+
+	// We've completed the surgery
+	if(status > length(steps))
+		return
+
 	if(!ispath(steps[status], /datum/surgery_step/manipulate_organs))
 		//The manipulate_organs step either hasn't been reached yet or we're already past it.
 		if(!HAS_TRAIT(target, TRAIT_FISHING_SPOT))
@@ -26,10 +31,14 @@
 
 	if(HAS_TRAIT(target, TRAIT_FISHING_SPOT))
 		return
+
 	target.AddComponent(/datum/component/fishing_spot, /datum/fish_source/surgery)
 
 /datum/surgery/organ_manipulation/Destroy()
-	if(HAS_TRAIT(target, TRAIT_FISHING_SPOT) && ispath(steps[status], /datum/surgery_step/manipulate_organs))
+	if(QDELETED(target) || !HAS_TRAIT(target, TRAIT_FISHING_SPOT))
+		return ..()
+	// The surgery is not finished yet and we're currently on manipulate organs step
+	if(status <= length(steps) && ispath(steps[status], /datum/surgery_step/manipulate_organs))
 		remove_fishing_spot()
 	return ..()
 
@@ -40,7 +49,7 @@
  */
 /datum/surgery/organ_manipulation/proc/remove_fishing_spot()
 	for(var/datum/surgery/organ_manipulation/manipulation in target.surgeries)
-		if(ispath(manipulation.steps[manipulation.status], /datum/surgery_step/manipulate_organs))
+		if(manipulation != src && ispath(manipulation.steps[manipulation.status], /datum/surgery_step/manipulate_organs))
 			return
 	qdel(target.GetComponent(/datum/component/fishing_spot))
 
@@ -82,7 +91,7 @@
 		/datum/surgery_step/incise,
 		/datum/surgery_step/retract_skin,
 		/datum/surgery_step/saw,
-		/datum/surgery_step/manipulate_organs/internal,
+		/datum/surgery_step/manipulate_organs/any,
 		/datum/surgery_step/close,
 	)
 
@@ -174,9 +183,13 @@
 		preop_sound = 'sound/items/handling/surgery/hemostat1.ogg'
 		success_sound = 'sound/items/handling/surgery/organ2.ogg'
 		target_organ = tool
+		if(!target_organ.pre_surgical_insertion(user, target, target_zone, tool))
+			return SURGERY_STEP_FAIL
+
 		if(target_zone != target_organ.zone || target.get_organ_slot(target_organ.slot))
 			to_chat(user, span_warning("There is no room for [target_organ] in [target]'s [target.parse_zone_with_bodypart(target_zone)]!"))
 			return SURGERY_STEP_FAIL
+
 		var/obj/item/organ/meatslab = tool
 		if(!meatslab.useable)
 			to_chat(user, span_warning("[target_organ] seems to have been chewed on, you can't use this!"))
@@ -303,6 +316,13 @@
 ///You can never use this MUHAHAHAHAHAHAH (because its the byond version of abstract)
 /datum/surgery_step/manipulate_organs/proc/can_use_organ(obj/item/organ/organ)
 	return FALSE
+
+/datum/surgery_step/manipulate_organs/any
+	time = 6.4 SECONDS
+	name = "manipulate organs (hemostat/organ)"
+
+/datum/surgery_step/manipulate_organs/any/can_use_organ(obj/item/organ/organ)
+	return TRUE
 
 ///Surgery step for internal organs, like hearts and brains
 /datum/surgery_step/manipulate_organs/internal
